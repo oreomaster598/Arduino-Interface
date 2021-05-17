@@ -1,0 +1,7 @@
+C:\Users\gabri\source\repos\Arduino\Arduino\bin\Debug\Arduino.exe.config
+C:\Users\gabri\source\repos\Arduino\Arduino\bin\Debug\Arduino.exe
+C:\Users\gabri\source\repos\Arduino\Arduino\bin\Debug\Arduino.pdb
+C:\Users\gabri\source\repos\Arduino\Arduino\obj\Debug\Arduino.csprojAssemblyReference.cache
+C:\Users\gabri\source\repos\Arduino\Arduino\obj\Debug\Arduino.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\Arduino\Arduino\obj\Debug\Arduino.exe
+C:\Users\gabri\source\repos\Arduino\Arduino\obj\Debug\Arduino.pdb

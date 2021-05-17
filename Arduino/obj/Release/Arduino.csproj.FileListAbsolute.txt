@@ -1,0 +1,6 @@
+C:\Users\gabri\source\repos\Arduino\Arduino\bin\Release\Arduino.exe.config
+C:\Users\gabri\source\repos\Arduino\Arduino\bin\Release\Arduino.exe
+C:\Users\gabri\source\repos\Arduino\Arduino\bin\Release\Arduino.pdb
+C:\Users\gabri\source\repos\Arduino\Arduino\obj\Release\Arduino.csproj.CoreCompileInputs.cache
+C:\Users\gabri\source\repos\Arduino\Arduino\obj\Release\Arduino.exe
+C:\Users\gabri\source\repos\Arduino\Arduino\obj\Release\Arduino.pdb
