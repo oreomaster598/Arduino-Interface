@@ -7,34 +7,29 @@ using System.IO.Ports;
 
 namespace Arduino
 {
-    public class Arduino
+        public class Arduino
     {
         private SerialPort serialPort;
-        public string log;
-        public bool PrintPortStream = false;
         public string name;
 
-        public Arduino(string portName)
+        public Arduino(string portName, int BaudRate = 9600)
         {
+            
             serialPort = new SerialPort(portName);
-            serialPort.BaudRate = 9600;
+            serialPort.BaudRate = BaudRate;
             serialPort.ReadTimeout = 2000;
             serialPort.WriteTimeout = 2000;
-            serialPort.DataReceived += DataReceived;
             serialPort.Open();
             name = portName;
         }
-        private void DataReceived(object s, SerialDataReceivedEventArgs e)
-        {
-            byte[] data = new byte[1024];
-            int bytesRead = serialPort.Read(data, 0, data.Length);
-            if(PrintPortStream)
-                Console.Write(Encoding.ASCII.GetString(data, 0, bytesRead));
-            log+=Encoding.ASCII.GetString(data, 0, bytesRead);
-        }
-        public void Write(string text)
+        public void WriteToArduino(string text)
         {
             serialPort.WriteLine(text);
+        }
+
+        public string ReadFromArduino()
+        {
+            return serialPort.ReadLine();
         }
     }
 }
